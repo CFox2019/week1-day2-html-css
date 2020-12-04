@@ -1,7 +1,60 @@
 body {
     background-color: #efeee7;
-    font: Georgia, "Times New Roman", Times, serif;
+    font-family: "Georgia", "Times New Roman", Times, serif;
     color: #333333;
-    margin: 0;
-    padding: 0;
+    border: 1px solid white;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    background-color: #eee;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333333;
+}
+
+h1 {
+    color: #eee;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#image-container {
+    width: 200px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+#bio-image {
+    width: 200px;
+}
+
+#main-bio {
+    width: 40%;
+    margin-top: 95px;
+    float: left;
+}
+
+ #contact-info {
+    width: 30%;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-top: 10px;
+    float: left;
+}
+
+.link {
+    color: #d21034;
 }
