@@ -1,17 +1,17 @@
 body {
-    background-color: #efeee7;
+    background-color: white;
     font-family: "Georgia", "Times New Roman", Times, serif;
     color: #333333;
-    border: 1px solid white;
-    height: 500px;
     margin: 0px;
     padding: 0px;
 }
 
 #container {
-    background-color: #eee;
+    background-color: #efeee7;
     width: 1024px;
     margin: 0 auto;
+    padding-bottom: 40px;
+    overflow: auto;
 }
 
 header {
